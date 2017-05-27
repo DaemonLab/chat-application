@@ -1,5 +1,5 @@
 # Chat Aplication using Python QtNetwork
-This is very basic chat application based on TCP Sockets. I have implementated this using QtNetwork class of PyQt4.
+This is very basic chat application based on TCP Sockets. I have implementated this using QtNetwork module.
 
 ### How to run this application
 #### Requirements:
