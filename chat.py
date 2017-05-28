@@ -17,6 +17,7 @@ class Chat(QDialog):
 	#NOTE: Non-responsive layout 
 	def __init__(self , parent = None):
 		super(Chat,self).__init__(parent)
+		self.setWindowFlags(Qt.WindowStaysOnTopHint)
 		layout = QHBoxLayout
 
 		#initializing socket
